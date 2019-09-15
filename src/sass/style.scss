@@ -84,3 +84,24 @@ input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+
+$green: #0bb200;
+$red: #ff0000;
+.owl-carousel {
+    height: 300px;
+    div {
+        height: 100%;
+        width: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.red {
+    background-color: #ff0000;
+}
+
+.green {
+    background-color: #0bb200;
+}
