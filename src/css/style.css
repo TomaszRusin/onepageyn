@@ -1,0 +1,7 @@
+.owl-carousel { height: 300px; }
+
+.owl-carousel div { height: 100%; width: inherit; display: flex; justify-content: center; align-items: center; }
+
+.red { background-color: #ff0000; }
+
+.green { background-color: #0bb200; }
