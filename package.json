@@ -1,0 +1,24 @@
+{
+  "name": "onepageyn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "onchange src/sass/style.scss -- node-sass src/sass/style.scss --output-style compact -o src/css/ "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomaszRusin/onepageyn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomaszRusin/onepageyn/issues"
+  },
+  "homepage": "https://github.com/TomaszRusin/onepageyn#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "onchange": "^6.1.0"
+  }
+}
